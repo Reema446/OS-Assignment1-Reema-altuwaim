@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [Reema Altuwaim] |
+| **Student ID** | [446051373] |
+| **University Email** | [446051373@std.psau.edu.sa |
+| **GitHub Username** | [Reema446] |
+| **Repository Link** | [[(https://github.com/Reema446/OS-Assignment1-Reema-altuwaim.git)] |
  
 ---
 
@@ -129,68 +129,68 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [8 october ,2026 ,10:00 pm ]
+**What I did**:Created GitHub account and set and update my student id in code
 
-**Details**:
+**Details**: i created my gitHub account using my university email, forked the starter repository and renamed it and updated my student ID inside SchedulerSimulation.java at line 150
 
-**Challenges**:
+**Challenges**:is ensuring the repository settings were correctly configured as public because i dont know anything about github
 
-**Solution**:
+**Solution**:verified repository visibility and account email synchronization
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:2 hours
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [9 october ,2026,5:00pm]
+**What I did**: installed VS Code and set up the development environment
 
-**Details**:
+**Details**:i downloaded and installed Visual Studio Code configured  JDK extensions, and set up the local workspace to prepare for project implementation
 
-**Challenges**:
+**Challenges**:configuring the environment paths for the Java compiler
 
-**Solution**:
+**Solution**:verified jdk installation and integrated it properly with VS code extensions
 
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:1 hour
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 3 - [10 october ,2026,9am]
+**What I did**:analyzed assignment requirements 
 
-**Details**:
+**Details**:i read the assignment file and try to understand all requirements and parts
 
-**Challenges**:
+**Challenges**:understanding the concepts of round roibn RR
 
-**Solution**:
+**Solution**: review RR
 
-**Time spent**:
+**Time spent**:1 hour
+
+---
+
+### Entry 4 - [11 october ,2026, 7:00 am]
+**What I did**: implemented all 3 features
+
+**Details**: i developed feature 1 (process priority generation) feature 2 (context switch counter)and feature 3 (waiting and turnaround time calculations using System.currentTimeMillis()
+
+**Challenges**:keeping track of total waiting times correctly when processes got suspended and interrupted and re-queued multiple times in the ready queue
+
+**Solution**:added precise state tracking variables and timestamps to cleanly accumulate active waiting durations across multiple round-robin cycles
+
+**Time spent**: 6 hours
+
+---
+
+### Entry 5 - [11 october , 2026, 4pm]
+**What I did**:completed documentation and project organization
+
+**Details**: organized the final code structure and completed all documentation requirements
+
+**Challenges**:verifying commit history
+
+**Solution**:double-checked all markdown elements
+
+**Time spent**: 2hours
 
 ---
 
@@ -211,13 +211,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [11 hours]
 
-**Most challenging part**:
+**Most challenging part**:i think the hardest part was calculating waiting and turnaround times accurately because processes were repeatedly paused and re-queued during Round-Robin scheduling
 
-**Most interesting learning**:
+**Most interesting learning**:seeing multithreading run in real-time helped me understand how the OS scheduler controls threads and switches execution
 
-**What I would do differently next time**:
+**What I would do differently next time**: ofc i will set up the environment and review instructions earlier to avoid feeling rushed during video recording
 
 ---
 
@@ -237,7 +237,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[working on this assignment actually made me understand how java handles multithreading much better, i learned how to create threads and use thread.start to get them running concurrently without issues, using thread.join was coool because it helped me wait for threads to finish up before moving on, i also used thread.sleep to mimic actual work time and see how the scheduler pauses stuff, honestly seeing the program switch back and forth between different threads in real time was pretty surprising and cool, it just made everything click about how os manages processes]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +245,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[most challenging part for me was definitely reading through the starter code and understanding how the scheduler logic was built, it took me a while to trace how the threads andd processes and the ready queue were actually interacting with each other, at first glance the execution loop looked super confusing and i was not sure where to insert my new features without breaking the existing flow,i had to read the code line by line and print out some debugging statements just to see what was happening behind the scenes, once I clearly understood how the execution loop worked adding my features became a lot easier.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +253,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[i handled the challenges by keeping my workflow simple and testing my changes as i went along, i added a few print statements in vs code to check the thread values and make sure the queue was updating right, checking the readme instructions again helped me verify that my logic matched what the assignment asked for, i made small adjustments one at a time and ran the simulation after each change to verify it worked, when something did not match the expected output i just traced the variables in my code to locate the issue, taking a organized approach made it pretty easy to fix bugs and finish the features]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +261,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[multithreading is very very important in real world apps to stop them from freezing, for instance web browsers use threads to load images and run scripts at the same time, video games use separate threads for playing audio while rendering graphics smoothly, music apps also run background threads so music keeps playing while you scroll, working on this scheduler showed me how operating systems keep apps responsive]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +293,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[in our code a process is simulated as a java class while each one runs inside a real java thread created using new thread process,a process has its own isolated memory space and higher creation overhead whereas threads share the same memory space and switch much faster, we used threads in this assignment because creating heavy system processes for all sixteen simulated tasks would be inefficient and slow, by using threads inside schedulersimulation.java we could easily manage the ready queue and handle context switching smoothly]
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,15 +305,21 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[when a process does not finish within its time quantum during round robin scheduling the cpu pauses its execution and performs a context switch,  in my output process p3 had a burst time of 10625ms and time quantum of 5000ms causing it to be re-queued two times before completings,re-queuing ensures fairness by preventing long processes from monopolizing the cpu and giving every process an equal opportunity to execute]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[? P3 executing quantum [5000ms] 
+  ? Quantum progress: [███████████████] 100%
+  ? P3 completed quantum 5000ms │ Overall progress: [█████████░░░░░░░░░░░] 47%
+     Remaining time: 5625ms
+  ? P3 yields CPU for context switch
+
+  ? P3 (Priority: 4) added to ready queue │ Burst time: 10625ms]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+[this code show process p3 running for its full quantum of 5000ms but failing to finish because its remaining burst time is still 5625ms, because it ran out of time it yields the cpu and gets pushed back to the ready queue to wait for its next turn]
 
 ## Question 3: Thread Lifecycle
 
@@ -323,15 +329,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [created when the thread object is instantiated using new thread process]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [starts right after thread.start is called in the scheduler loop]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [begins when the thread executes code inside its run method]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [happens when calling thread.sleep or waiting on join]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [reached once the run method finishes execution]
 
 ## Question 4: Real-World Applications
 
@@ -341,32 +347,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [os cpu task scheduling]
 
 **Description**:
-[Describe the real-world scenario.]
+[ operating system shares cpu time among active user programs like visual studio code and background services , each program acts like a process and receiving a small time slice to run on the processor, if a program does not finish during its allocated time a context switch occurs to let the next process run]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[round robin ensures strict fairness so no single background application can freeze the system , giving every process an equal time quantum maintains system responsiveness and keeps all open programs running smoothly]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [web server handling user requests]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[a web server handles hundreds of incoming HTTP requests at the same time using background threads , each thread processes one request where time quantum is the cpu time allocated per request before switching , context switching allows the server to serve multiple users without making anyone wait too long]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[round robin provides great responsiveness and predictability for all connected users , it prevents a large file download request from blocking smaller web page requests and ensuring fair service for everyone]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.how round robin works with time quantums
+2.difference between threads and processes
+3.thread lifecycle states
 
 **Concepts I need to study more:**
-1.
-2.
+1.thread synchronization in java
+2.calculating waiting time for queues
 
 ---
 
